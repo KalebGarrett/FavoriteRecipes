@@ -22,8 +22,56 @@ img {
     border: 10px solid #c4871d;
 }
 
-h3 {
+.recipes {
     font-family: 'Courier New', Courier, monospace;
     font-size: 22px;
     color: white;
+}
+
+.recipes:hover {
+    transform: scale(1.1);
+}
+
+.links {
+    background-color: none;
+    color: white;
+    text-decoration: none;
+}
+
+.links:hover {   
+    opacity: 0.8;
+    color: #c4871d;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.links:active {    
+    color: #c4871d;
+}
+
+.recipes2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: white;
+}
+
+.recipes2:hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: white;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+}
+
+.ingredients-directions {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:white
 }
