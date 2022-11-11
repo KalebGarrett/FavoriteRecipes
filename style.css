@@ -1,9 +1,24 @@
 #title {
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+span {
+    color: #c4871d;
 }
 
 body {
-    background-color: #fcf7f7;
     text-align: center;
+    display: block;
+    background-color: #fcf7f7;
+    margin:40px auto;
+    max-width: 1000px;
+    line-height: 1.2;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
 }
